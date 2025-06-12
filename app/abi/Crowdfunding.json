@@ -1,0 +1,11 @@
+{
+  "contractName": "Crowdfunding",
+  "abi": [
+    {
+      "type": "function",
+      "name": "exampleFunction",
+      "inputs": [],
+      "outputs": []
+    }
+  ]
+}

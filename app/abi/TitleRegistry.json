@@ -1,0 +1,11 @@
+{
+  "contractName": "TitleRegistry",
+  "abi": [
+    {
+      "type": "function",
+      "name": "exampleFunction",
+      "inputs": [],
+      "outputs": []
+    }
+  ]
+}

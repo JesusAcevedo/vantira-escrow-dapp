@@ -1,0 +1,11 @@
+{
+  "contractName": "Mortgage",
+  "abi": [
+    {
+      "type": "function",
+      "name": "exampleFunction",
+      "inputs": [],
+      "outputs": []
+    }
+  ]
+}

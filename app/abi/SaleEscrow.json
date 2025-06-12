@@ -1,0 +1,11 @@
+{
+  "contractName": "SaleEscrow",
+  "abi": [
+    {
+      "type": "function",
+      "name": "exampleFunction",
+      "inputs": [],
+      "outputs": []
+    }
+  ]
+}

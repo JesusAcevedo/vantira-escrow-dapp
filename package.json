@@ -6,20 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "sync-abi": "node scripts/sync-abi.js"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "@rainbow-me/rainbowkit": "2.2.5",
+    "@wagmi/core": "2.7.0",
+    "ethers": "^6.7.0",
+    "next": "15.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "viem": "2.30.5",
+    "wagmi": "2.9.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/react-hooks": "8.1.1",
+    "@types/jest": "29.5.3",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.47.0",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "29.6.1",
+    "jest-environment-jsdom": "^29.6.1",
+    "ts-jest": "29.1.1",
+    "typescript": "5.2.2"
   }
 }
