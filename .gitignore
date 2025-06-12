@@ -9,6 +9,12 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.env.local
+.next/
+out/
+build/
+dist/
+*.log
 
 # testing
 /coverage
@@ -43,3 +49,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OS
+.DS_Store
+
+# ABI bundles (if temporary)
+public/realty-abi-bundle.json
